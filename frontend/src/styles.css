@@ -1,0 +1,5 @@
+body {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(61, 126, 170), rgb(255, 228, 122))
+    repeat scroll 0% 0%;
+  overflow-x: hidden;
+}

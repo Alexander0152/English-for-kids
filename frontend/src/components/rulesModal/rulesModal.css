@@ -1,0 +1,59 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  z-index: 2;
+  color: white;
+
+  text-align: center;
+}
+
+.modal_body {
+  padding: 2rem;
+  width: 400px;
+  border-radius: 5px;
+  background: linear-gradient(3deg, #afd9f7, #459cf7);
+  /* height: 360px; */
+}
+
+.modal_body_about {
+  padding: 2rem;
+  width: 400px;
+  border-radius: 15px;
+  background: linear-gradient(3deg, #afd9f7, #459cf7);
+  height: 330px;
+}
+
+.btn-modal {
+  background-color: rgb(220, 220, 220);
+}
+
+.modal_finish_btn {
+  width: 100px;
+  height: 40px;
+  margin: 20px 10px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 1px 1px 0 0 white;
+}
+
+.close_about_btn {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.about_game_text {
+  text-align: left;
+}
+.blue_text {
+  color: #2a2a72;
+}

@@ -1,0 +1,229 @@
+.header-container {
+  display: flex;
+  flex-direction: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+  height: 100%;
+  max-width: 1165px;
+  margin: 40px auto 0;
+}
+/**** MENU ************************/
+.toggle-button {
+  position: fixed;
+  width: 44px;
+  height: 40px;
+  padding: 4px;
+  transition: 0.25s;
+  z-index: 15;
+}
+.toggle-button:hover {
+  cursor: pointer;
+}
+.toggle-button .menu-bar {
+  position: absolute;
+  border-radius: 2px;
+  width: 80%;
+  transition: 0.5s;
+}
+.toggle-button .menu-bar-top {
+  border: 4px solid #555;
+  border-bottom: none;
+  top: 0;
+}
+.toggle-button .menu-bar-middle {
+  height: 4px;
+  background-color: #555;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  top: 4px;
+}
+.toggle-button .menu-bar-bottom {
+  border: 4px solid #555;
+  border-top: none;
+  top: 22px;
+}
+.button-open .menu-bar-top {
+  transform: rotate(45deg) translate(8px, 8px);
+  transition: 0.5s;
+}
+.button-open .menu-bar-middle {
+  transform: translate(2 30px);
+  transition: 0.1s ease-in;
+  opacity: 0;
+}
+.button-open .menu-bar-bottom {
+  transform: rotate(-45deg) translate(8px, -7px);
+  transition: 0.5s;
+}
+
+.menu-wrap {
+  background-color: #f39f86;
+  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  position: fixed;
+  top: 0;
+  left: -460px;
+  height: 100%;
+  width: 460px;
+  /* margin-left: -280px; */
+  font-size: 1em;
+  font-weight: 700;
+  overflow: auto;
+  transition: 0.25s;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.menu-show {
+  left: 0;
+  margin-left: 0;
+  box-shadow: 4px 2px 15px 1px #b9adad;
+}
+
+.menu-sidebar {
+  padding-top: 20%;
+}
+
+.menu-sidebar ul {
+  display: block;
+  height: 0.15em;
+  font-size: 26px;
+  list-style-type: none;
+  margin-left: 15%;
+}
+
+.menu-sidebar li {
+  padding: 2%;
+  text-align: center;
+  margin-right: 160px;
+}
+
+.menu-sidebar a {
+  color: black;
+}
+
+.menu-sidebar a:hover {
+  color: white;
+}
+
+.menu_active {
+  color: red !important;
+}
+/*
+ .menu-sidebar li > a::after {
+  content: '';
+  display: block;
+  height: 0.15em;
+  position: absolute;
+  top: 100%;
+  width: 102%;
+  left: 50%;
+  transform: translate(-50%);
+  background-image: linear-gradient(to right, transparent 50.3%, #fffa3b 50.3%);
+  transition: background-position 0.2s 0.1s ease-out;
+  background-size: 200% auto;
+}
+/*
+.menu-sidebar li > a:hover::after {
+  background-position: -100% 0;
+}
+
+.menu-sidebar li > a::after {
+  background-image: linear-gradient(to right, transparent 50.3%, #fffa3b 50.3%);
+} */
+
+/**** TOGGLE ***********/
+
+.switch-button {
+  background-color: #f39f86;
+  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  border-radius: 30px;
+  overflow: hidden;
+  width: 60px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: fantasy;
+  letter-spacing: 1px;
+  color: black;
+  position: relative;
+  padding-right: 40px;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100px);
+  box-shadow: 1px 1px 2px 1px black;
+}
+.switch-button:before {
+  content: 'Play';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(50px);
+  transition: transform 100ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+  position: relative;
+  padding: 15px 0;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+.switch-button-checkbox + .switch-button-label:before {
+  content: '';
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  transform: translateX(0);
+  transition: transform 100ms;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  position: relative;
+}
+
+.btn_show {
+  display: initial;
+}
+
+.admin_navigation {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.admin_navigation:hover {
+  color: black;
+}
+
+.admin_navigation-active {
+  color: black;
+}
+
+.admin_navigation_words {
+  pointer-events: none;
+}

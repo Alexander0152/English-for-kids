@@ -1,0 +1,59 @@
+.winners_container {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  /* background-color: #2196f3; */
+
+  width: 480px;
+}
+
+table {
+  margin: 20px auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  /* font-size: 16px;    */
+
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 15px;
+  padding-top: 20px;
+  padding-top: 20px;
+  width: 90%;
+  max-width: 1440px;
+}
+
+td,
+th {
+  border: 1px solid #616161;
+  text-align: center;
+  /* padding: 8px; */
+}
+
+.btn_wins,
+.btn_reset {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  /* width: 70px; */
+  height: 40px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 1px 1px 0 0 white;
+}
+
+.btn_reset {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 525px) {
+  table {
+    font-size: 11px;
+  }
+  .btn_wins {
+    font-size: 7px;
+  }
+}

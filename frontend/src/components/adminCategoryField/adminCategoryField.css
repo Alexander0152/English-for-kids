@@ -1,0 +1,98 @@
+.admin_category_card {
+  text-align: center;
+  overflow: hidden;
+}
+
+.admin_card_title {
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  max-width: 100%;
+  text-align: center;
+
+  pointer-events: none;
+}
+
+.admin_card_btn,
+.admin_card_btn_save_changes,
+.admin_card_btn_save_cat {
+  width: 90px;
+  height: 35px;
+  margin: 50px 10px 0;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  box-shadow: 1px 1px 0 0 white;
+}
+
+.admin_card_btn_delete {
+  margin-top: 10px;
+  width: 145px;
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}
+
+.admin_card_btn_save_changes {
+  width: 125px;
+}
+
+.admin_card_btn_save_cat {
+  margin-top: 10px;
+  width: 165px;
+}
+
+.add_image-container {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 40px;
+}
+
+.edit {
+  pointer-events: all;
+  background-color: rgba(240, 248, 255, 0.377);
+  border: 2px solid blue;
+}
+
+.hide {
+  display: none;
+}
+
+.input_file {
+  height: 60px;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.file-upload {
+  border: 2px solid white;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.back_btn {
+  width: 50px;
+}
+
+.mb_20 {
+  margin-bottom: -30px;
+}

@@ -1,0 +1,59 @@
+.cards-field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 15px;
+  padding-top: 20px;
+  max-width: 1440px;
+  margin: 30px auto;
+}
+
+.start_game_btn {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(194, 21, 0), rgb(255, 197, 0)) repeat
+    scroll 0% 0%;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 16px;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+/***STARS***********/
+.stars-container {
+  display: flex;
+  max-width: 1165px;
+  height: 45px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px auto 0;
+  overflow: hidden;
+
+  /* background-color: aqua; */
+}
+
+.star_right,
+.star_wrong {
+  width: 50px;
+  height: 50px;
+  background-image: url('https://ts-server0152.herokuapp.com/icons/star-win.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.star_wrong {
+  background-image: url('https://ts-server0152.herokuapp.com/icons/star.svg');
+}
+
+.guessed_card {
+  position: none;
+  opacity: 0.3;
+  pointer-events: none;
+}

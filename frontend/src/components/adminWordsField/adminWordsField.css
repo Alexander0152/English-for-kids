@@ -1,0 +1,130 @@
+.admin_category_card {
+  text-align: center;
+  overflow: hidden;
+}
+
+.admin_card_title_word {
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  max-width: 100%;
+  text-align: center;
+
+  pointer-events: none;
+}
+
+.admin_card_btn_word,
+.admin_card_btn_save_changes_word,
+.admin_card_btn_save_cat {
+  width: 70px;
+  height: 25px;
+  margin: 8px 10px 0;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  box-shadow: 1px 1px 0 0 white;
+}
+
+.admin_card_btn_delete {
+  margin-top: 10px;
+  width: 145px;
+  background-color: #eb4511;
+  background-image: linear-gradient(315deg, #eb4511 0%, #b02e0c 74%);
+}
+
+.admin_card_btn_save_changes {
+  width: 125px;
+}
+
+/* .admin_card_btn_word,
+.admin_card_btn_save_changes_word {
+  margin-top: 10px;
+} */
+
+.admin_card_btn_save_cat {
+  margin-top: 10px;
+  width: 165px;
+}
+
+.add_image-container {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 40px;
+}
+
+.edit {
+  pointer-events: all;
+  background-color: rgba(240, 248, 255, 0.377);
+  border: 2px solid blue;
+}
+
+.hide {
+  display: none !important;
+}
+
+.input_file {
+  height: 60px;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.file-upload_word {
+  border: 2px solid white;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 12px 0 5px;
+  font-weight: bold;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.back_btn {
+  width: 50px;
+}
+
+.admin_word_img_container {
+  width: 100%;
+}
+
+.admin_category_card_img {
+  width: 100px !important;
+  height: 80px !important;
+  transition: all 0.25s ease;
+  object-fit: cover;
+  margin-top: 5px;
+  border-radius: 0.5rem;
+}
+
+.card_sound_play {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  max-height: 35px;
+  overflow: hidden;
+}
+
+.admin_words_main_tite {
+  text-align: center;
+  color: darkblue;
+  margin-bottom: -20px;
+}
